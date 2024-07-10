@@ -14,6 +14,11 @@ print(lang)
 print(type(lang))
 
 
-print(456456.345435)
-print(int(456456.345435))
+
+
+
+
+
+
+
 
