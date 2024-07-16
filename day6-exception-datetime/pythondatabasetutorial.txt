@@ -1,0 +1,68 @@
+Forst goto settings install the package 
+
+ data-atom
+
+Once data-atom package is installed check wether it is avialable in 
+
+Menu  PAckages-> Data Atom 
+
+Create a new connection with all properties
+
+->servername, port number, id,pwd etc.
+
+Then run PAckages -> Data Atom- > Execute 
+
+install mysql-connector
+===========================================
+python -m pip install mysql-connector 
+
+=============================================firstdb.py
+import mysql.connector  
+  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google")  
+  
+#printing the connection object   
+print(myconn)   
+
+============================================second.py
+import mysql.connector
+
+#Create the connection object
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "root",database="testdb")
+
+#printing the connection object
+print(myconn)
+
+cur = myconn.cursor()
+
+    #Reading the Employee data
+cur.execute("select * from employee")
+
+    #fetching the rows from the cursor object
+result = cur.fetchall()
+    #printing the result
+
+for x in result:
+        print(x);
+
+myconn.close()
+==================================================third.py
+import mysql.connector
+#Create the connection object
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "root",database = "testdb")
+#creating the cursor object
+cur = myconn.cursor()
+try:
+    #Reading the Employee data
+    cur.execute("select id from Employee")
+
+    #fetching the rows from the cursor object
+    result = cur.fetchall()
+    #printing the result
+    for x in result:
+        print(x);
+except:
+    myconn.rollback()
+myconn.close()
+

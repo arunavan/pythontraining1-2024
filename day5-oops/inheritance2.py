@@ -14,7 +14,11 @@ class India(Earth):
       print ("I am in India")      
 
 # creating instance 
-person = India()  
+person = India()
+u=Universe()  
+
+print(isinstance(u,Earth))
+print(isinstance(person,India))
 # method calls
 person.universeMethod() 
 person.earthMethod() 
