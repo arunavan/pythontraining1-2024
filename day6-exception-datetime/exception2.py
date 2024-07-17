@@ -1,7 +1,7 @@
 #custom exception
 
 class DepositError(Exception):
-   def __init__(self,msg="Minimum deposit is 1000"):
+   def __init__(self,msg="Minimum deposit is 1000,plea try again"):
       self.msg=msg
      #print(msg)
 
@@ -12,6 +12,9 @@ def check(deposit):
    print('deposit amount is ',deposit)
    if(deposit<1000):
       raise DepositError()
+   
+
+
 try:
    check(deposit)
 except DepositError as e:

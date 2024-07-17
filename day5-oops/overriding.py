@@ -1,17 +1,18 @@
 # define parent class
 class Parent: 
-   def myMethod(self):
+   def disp(self):
       print ('Calling parent method')
 
 # define child class
 class Child(Parent): 
-   def myMethod(self):
+   def show(self):
       print ('Calling child method')
 
 # instance of child
 c = Child() 
 # child calls overridden method
-c.myMethod()
+c.disp()
+c.show()
 
 #overriding
 
@@ -28,9 +29,9 @@ class Employee:
 class SalesOfficer(Employee):
    def __init__(self,nm, sal, inc):
       super().__init__(nm,sal)
-      self.incnt=inc
+      self.inc=inc
    def getSalary(self):
-      return self.salary+self.incnt
+      return self.salary+self.inc
 
 e1=Employee("Rajesh", 9000)
 print ("Total salary for {} is Rs {}".format(e1.getName(),e1.getSalary()))

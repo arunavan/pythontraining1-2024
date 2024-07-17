@@ -1,6 +1,6 @@
 
 try:
-   file = open("example.txt", "r")
+   file = open("abc.txt", "r")
    content = file.read()
    print(content)
 except FileNotFoundError:
