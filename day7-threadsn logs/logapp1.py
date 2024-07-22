@@ -21,7 +21,7 @@ def calculate_sum(a, b):
 
 logger = logging.getLogger(__name__)  
 
-lf=logging.FileHandler('sample.log')
+lf=logging.FileHandler('sample123.log')
 formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
 lf.setFormatter(formatter)
 
