@@ -1,0 +1,33 @@
+docker commands
+===================
+docker build -t flask-app .
+
+docker run --name flask-app-server -p 8080:8080 flask-app
+
+docker stop flask-app-server
+
+docker rm flask-app-server
+
+
+docker-compose:
+====================
+
+docker-compose up -d
+docker-compose down
+
+
+push image to docker-hub:
+
+
+hub.docker.com
+===============
+
+arunajava567
+aruna708*
+
+
+in project folder in following command:
+==========================================
+ docker tag flask-app arunajava567/flask-app:latest
+ docker push arunajava567/flask-app:latest
+
