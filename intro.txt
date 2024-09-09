@@ -1,0 +1,136 @@
+Introduction
+
+- Hi, This is   , I graduated from     in the year 2020 and since then I have been working and I have 4 years of exp  in the IT industry with Project management and Python development. I was interested in coding as I was good at 
+mathematics. I was placed in my campus placements as non technical profile but I learned coding  in my free time and shifted to developer profile 2 years ago. 
+
+
+=================================================
+
+Professional Experience:
+
+- I have been involved in all the application life cycle phases and processes
+
+- Like requirement gathering, analysis, development, unit testing, integration and code reviews.
+
+- I have been using core concepts like Numpy, Pandas, Matplotlib, Multithreading, Exception handling, File operations
+
+- I am using Django framework for the current project and Flask for web development using 
+  Visual Studio Code and Jupyter Notebook
+
+- Coming to UI stack, I am good at HTML, CSS , JS , Bootstrap, basics of Angular and React JS. 
+
+- I also have good experience in Presentation Layer, Service/Business Layer & Persistence Layer . 
+
+- When it comes to Databases, I am good at SQLite, Oracle, MySQL, Tableau and Power BI
+
+- For API development, I am comfortable with SOA (Service Oriented Arch., 
+  REST (Representational State Transf.) and Microservices architectures
+
+- I am good with Agile methodologies, involved in all events like daily SCRUM, standup calls, sprint review, 
+   plans and retrospection etc.
+
+- I have a good understanding of Unit testing, and also used API  testing using  Postman
+
+- I have also been involved in team management, managing people and status reporting 
+
+- I am Using GIT for repository, JIRA for team management.
+
+- I am comfortable with cloud services of AWS like EC2 , S3, IAM, RDS etc. 
+   and also have an idea of GCP, Azure.
+
+=========================================
+
+Projects:
+
+- The most recent project I worked on was a trading software project called Product Plus for a client CME in USA
+ which is online trading application.
+
+- Our team size was 10 and the environment we used contained Python, Flask, Django, Webservices, 
+  HTML, CSS, JavaScript, Oracle11g, MySQL8 
+
+Roles & Responsibilities:-
+
+• Writing quality code and test for errors, also building and deploying programs
+
+• Also improved customer data management efficiency.
+
+• Participated in daily scrum meetings, enhancing team communication 
+  and project transparency, reducing project delays.
+
+• Developed a client-facing web application using Django, resulting in customer 
+   satisfaction through enhanced user experience.
+
+---------------------------------------------------------------------------------------
+
+LAHP (Latin American Hospitality Project) 
+
+-  I also worked on a health care project  for a client GE HealthCare
+ which is online trading application.
+
+- Our team size was 6 and the Environment included Python ,Django, Web services, HTML, CSS, JavaScript, Oracle11g
+
+Project Description:-
+
+LAHP software is used for entire Hospital information is emergency info, general info, laboratories info, 
+operational theaters info, radiology and recovery, inpatient and outpatient and all equipment’s
+ information related entire hospital information will be maintained this application.
+
+
+Roles & Responsibilities:-
+
+• Use server-side logic to combine user-facing pieces produced by other front-end developers
+
+• Set and implement data security protocols
+
+• Combine data storage options
+
+• Perform application automation, balancing, enhancement, tweaking, and usability
+
+• Work with the design team to formulate technical solutions for application features
+
+• Involved in u- id authentication implementation, developing the loggers.
+
+• Development on user maintenance data, Operational data modules.
+
+• Involved in Jenkin job creation for build and deployment pipeline setup. 
+
+
+
+================================
+
+Day to Day activities:
+
+- Checking emails, checking JIRA story board, attending daily standup calls etc.  
+
+- I usually Start my development work on my story point, by writing code and testing it
+
+- Completion of deploying the app and test WSGI (Webservices Gateway Interface)
+
+================================
+
+Experience Timeline
+
+
+- Currently working  as  Python Developer at Stanvac Systems Private Ltd , from Dec 2022 to July 10th 2024
+
+- Worked as Associate Product Manager - II , Interview Kickstart , Dec 2021 to Nov 2022.
+
+- Worked as Program Manager , Toppr/Byju's , August 2020 to Dec 2021
+
+==============================================
+
+Challenges:
+
+- The rapid advancement of technology. 
+
+- Increasing customer demands in the development stage. 
+
+- Time limitation. 
+
+- Limited infrastructure/ resources. 
+
+- Understanding the large and complex system requirements
+
+- Undefined system boundaries are also confusing at times
+
+- Some times customers are not clear about their needs.
