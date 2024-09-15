@@ -1,0 +1,10 @@
+to build image==>
+docker build --tag python-docker .
+
+
+to display images  ==>
+docker images
+
+
+to run docker container ==>
+docker run -d -p 5000:5000 python-docker 

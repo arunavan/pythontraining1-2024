@@ -1,0 +1,38 @@
+create a folder  >djangoproject
+
+create virtual environment
+========================================
+
+python -m venv myworld    -> create local tools n libs
+
+cd myworld
+
+myworld\Script\  activate  -> run activate.bat file to start env
+
+
+install Django
+======================
+myworld...> pip install  Django
+
+
+
+create project:  contains all config files
+==============================
+myworld...>django-admin startproject my_project
+
+myworld...>cd my_project
+
+myworld...\my_project>  python manage.py  runserver 
+
+default port localhost:8000 will start django server
+
+
+create app: contains only business logic
+===========================================
+...> python manage.py startapp sample-app
+
+
+url.py
+view.py
+
+

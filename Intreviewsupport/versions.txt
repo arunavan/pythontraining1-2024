@@ -1,0 +1,5 @@
+python -3.12
+
+Django 5 is available but i have used 3 & 2.7  also
+WSGL - synchronous --slow
+ASGL - Asynchronous calls   -fast
